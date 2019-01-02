@@ -18,7 +18,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetalhesClienteMenuActivity"></activity>
+        <activity android:name=".DetalhesClienteMenuActivity" />
+        <activity android:name=".DetalhesEmpresasMenuActivity"></activity>
     </application>
 
 </manifest>
