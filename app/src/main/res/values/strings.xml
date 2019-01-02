@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ATM Consultec</string>
+    <string name="clientes">Clientes</string>
+    <string name="ip_morgan">- IP Morgan</string>
+    <string name="soft_tech">- Soft Tech</string>
+    <string name="monster_tech">- Monster Tech</string>
+</resources>
