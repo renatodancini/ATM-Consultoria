@@ -54,7 +54,7 @@
        android:layout_height="wrap_content"
        android:text="@string/monster_tech"
        app:layout_constraintStart_toStartOf="@id/tv_description_menu_clientes_1"
-       app:layout_constraintTop_toBottomOf=""/>
+       />
 
 
 
