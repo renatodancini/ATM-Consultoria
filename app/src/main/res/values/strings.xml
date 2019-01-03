@@ -7,4 +7,7 @@
     <string name="empresas">Empresas</string>
     <string name="servi_os">- Serviços</string>
     <string name="desenvolvimento_web">- Desenvolvimento web</string>
+    <string name="desenvolvimento_back">- Desenvolvimento back</string>
+    <string name="desenvolvimento_front">- Desenvolvimento Front</string>
+    <string name="contato">- Contato</string>
 </resources>

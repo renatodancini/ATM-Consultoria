@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalhesContatoActivity">
+
+    <ImageView
+        android:id="@+id/iv_detalhes_contato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/detalhe_contato"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_title_contato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contato"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:textSize="20dp"
+        app:layout_constraintStart_toEndOf="@id/iv_detalhes_contato"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_email_contato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="e-mail: contato@atmconsultec.com.br"
+        app:layout_constraintStart_toStartOf="@id/iv_detalhes_contato"
+        app:layout_constraintTop_toBottomOf="@id/iv_detalhes_contato"/>
+
+    <TextView
+        android:id="@+id/tv_telelefone_contato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tel: (11) 2222-2222"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@id/tv_email_contato"
+        app:layout_constraintTop_toBottomOf="@+id/tv_email_contato"/>
+
+</android.support.constraint.ConstraintLayout>

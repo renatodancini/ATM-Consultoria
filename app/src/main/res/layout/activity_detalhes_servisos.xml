@@ -22,17 +22,36 @@
         android:layout_height="wrap_content"
         android:text="@string/servi_os"
         android:textSize="26dp"
+        android:layout_marginLeft="16dp"
         app:layout_constraintBottom_toBottomOf="@id/iv_detalhes_serviços"
         app:layout_constraintStart_toEndOf="@id/iv_detalhes_serviços" />
 
     <TextView
-        android:id="@+id/tv_description_menu_serviços"
+    android:id="@+id/tv_description_menu_serviços"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/desenvolvimento_web"
+    android:layout_marginTop="16dp"
+    app:layout_constraintTop_toBottomOf="@id/iv_detalhes_serviços"
+    app:layout_constraintStart_toStartOf="@id/tv_title_serviços"/>
+
+    <TextView
+        android:id="@+id/tv_description_menu_serviços1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/desenvolvimento_web"
+        android:text="@string/desenvolvimento_back"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@id/iv_detalhes_serviços"
-        app:layout_constraintStart_toStartOf="@id/tv_title_serviços"/>
+        app:layout_constraintTop_toBottomOf="@id/tv_description_menu_serviços"
+        app:layout_constraintStart_toStartOf="@id/tv_description_menu_serviços"/>
+
+    <TextView
+        android:id="@+id/tv_description_menu_serviços2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desenvolvimento_front"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@id/tv_title_serviços"
+        app:layout_constraintTop_toBottomOf="@id/tv_description_menu_serviços1"/>
 
 
 </android.support.constraint.ConstraintLayout>
